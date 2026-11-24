@@ -24,7 +24,7 @@ This project demonstrates a fault-tolerant, self-healing web server architecture
 ![Auto Scaling Group](images/Auto-scaling-group.png)
 
 ### 2. Self-Healing: Auto Scaling Handling Unhealthy Instance
-(images/Auto-scaling with-healthy and unhealthy server.png)
+![Auto Scaling Unhealthy Replacement](images/Auto-scaling with-healthy and unhealthy server.png)
 
 ### 3. EC2 Instance Provisioned by Auto Scaling
 (images/EC2-created-by-auto-scaling.png)
