@@ -24,13 +24,13 @@ This project demonstrates a fault-tolerant, self-healing web server architecture
 ![Auto Scaling Group](images/Auto-scaling-group.png)
 
 ### 2. Self-Healing: Auto Scaling Handling Unhealthy Instance
-![Auto Scaling Unhealthy Replacement](images/Auto-scaling with-healthy and unhealthy server.png)
+![Auto Scaling Unhealthy Replacement](images/Auto-scaling%20with-healthy%20and%20unhealthy%20server.png)
 
 ### 3. EC2 Instance Provisioned by Auto Scaling
-(images/EC2-created-by-auto-scaling.png)
+![EC2 Instance Details](images/EC2-created-by-auto-scaling.png)
 
 ### 4. Application Load Balancer Configuration
-(images/application-load-balancer.png)
+![Application Load Balancer](images/application-load-balancer.png)
 
 ## Cost Management & Cleanup
 After verifying and documenting the deployment, all AWS resources were deleted in the following order to prevent ongoing charges:
