@@ -9,7 +9,8 @@ This project demonstrates a fault-tolerant, self-healing web server architecture
 ### AWS Services Used
 * **Amazon EC2 & User Data:** Bootstrapped an Ubuntu Server instance using [`scripts/user-data.sh`](scripts/user-data.sh) to update packages and install Nginx automatically on boot.
 * **Custom AMI & Launch Template:** Captured the configured Ubuntu EC2 instance as an Amazon Machine Image (AMI) and created a Launch Template for consistent, rapid scaling.
-* **Application Load Balancer (ALB) & Target Group:** Distributed incoming HTTP (Port 80) traffic across multiple Availability Zones and monitored target health.
+* ### 4. Application Load Balancer Configuration
+![Application Load Balancer](images/load-balancer.png)
 * **Auto Scaling Group (ASG):** Maintained desired instance capacity across Availability Zones and automatically replaced unhealthy or terminated instances.
 
 ## Deployment Workflow
